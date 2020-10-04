@@ -6,14 +6,14 @@
 
 def is_Hit (x,y):
     if x >= 3 and x <= 5:
-        if y <= 2 and y <=2:
+        if y == 2:
             return True
 
-    if x >= 6 and x <= 6:
+    if x == 6:
         if y >= 7 and y <=9:
             return True
 
     return False
 
-print(is_Hit(9,9))
+print(is_Hit(4,1))
 

@@ -7,8 +7,17 @@
 # The goal of the function is to display the specified amount of numbers from the
 # sequence on the screen. An example can be seen below:
 
-number = int(input("Enter a number: "))
 def fib (x):
-    return number * 2
+    n1 = 0
+    n2 = 1
+    print(n1)
+    print(n2)
+    for i in range(x-2):
+        n3 = n1 + n2
+        n1 = n2
+        n2 = n3
 
-fib(number)
+
+        print(n3)
+
+fib(9)
